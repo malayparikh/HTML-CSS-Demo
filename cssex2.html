@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class and CSS Selector</title>
+        <style>
+
+            /*Element Selector*/
+
+            p {
+
+                
+                font-style: italic;
+            }
+
+            /* ID Selector*/
+
+            #cssstyle1{
+
+                color:green;
+            }
+
+            /*Universal Selector*/
+
+            * {
+
+                margin: 5;
+                padding: 5;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: x-large;
+            }
+
+            /*CSS for input */
+
+            input[type="text"]{
+
+                width: 200px;
+                padding:10px;
+                border: 2px solid red;
+            }
+            input[placeholder="Enter your name"]{
+
+                font-style: italic;
+
+            }
+            /*CSS Padding */
+            div {
+
+                padding-left: 40px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p>This the example of element selector css</p>
+        <p id="cssstyle1">This is the example of ID Selector</p>
+        <div>Text from DIV</div>
+        <div><input type="text" placeholder="Enter your name"></div>
+    </body>
+</html>
